@@ -78,6 +78,13 @@ def summit(size):
                    (x + 20 * S, y + 4 * S), (x + 24 * S, y + 46 * S)], fill=suit)
         d.polygon([(x - 6 * S, y + 4 * S), (x, y + 22 * S), (x + 6 * S, y + 4 * S)], fill=(238, 234, 222))
         d.line((x - 9 * S, y + 5 * S, x, y + 18 * S, x + 9 * S, y + 5 * S), fill=(150, 45, 42), width=2 * S)
+    name_font = _font(7, bold=True)
+    for cx, label in ((0.28, 'TRUMP'), (0.5, 'XI'), (0.72, 'PUTIN')):
+        x = int(cx * w)
+        tw = d.textbbox((0, 0), label, font=name_font)[2]
+        d.rounded_rectangle((x - tw / 2 - 5 * S, int(h * 0.79), x + tw / 2 + 5 * S, int(h * 0.9)),
+                            radius=2 * S, fill=(244, 238, 220), outline=(90, 84, 74))
+        d.text((x - tw / 2, int(h * 0.8)), label, font=name_font, fill=(40, 36, 32))
     return _finish(img, size)
 
 

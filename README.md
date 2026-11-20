@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261119/AdamEddahmouni/news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 [![reward](https://make.fun/badge/news-image-20261119/AdamEddahmouni/news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 
-A generated one-page infographic that names 19 November 2026 and sums up the day's world news: the Trump–Xi–Putin summit, the ICJ's Myanmar genocide ruling, Anthropic's record IPO, Ukraine security guarantees, the Iran war-powers vote, and GTA VI's launch.
+A generated newspaper front page that names 19 November 2026 and sums up 37 sourced stories from that day: the Trump–Xi–Putin summit, the ICJ's Myanmar genocide ruling, COP31, Anthropic's record IPO, the Crimean bridge strike, Cyclone Akvan, GTA VI's launch and many more, with a numbered world map and an explicit date check.
 
 ## Run it
 
